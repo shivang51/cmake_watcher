@@ -35,6 +35,7 @@ This tool monitors directories referenced in your CMake files and automatically 
 	Start the tool by executing:
 	```sh
 	python main.py /path/to/CMakeLists.txt
+    ```
 	Replace `/path/to/CMakeLists.txt` with the path to your main CMake file.
 
 3. Watch for Updates:
