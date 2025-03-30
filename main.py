@@ -2,8 +2,8 @@ import os
 import time
 import argparse
 from watchdog.observers import Observer
-from cmake_watcher import CMakeWatcher
-from file_event_handler import FileEventHandler
+from src.cmake_watcher import CMakeWatcher
+from src.file_event_handler import FileEventHandler
 
 def main():
     parser = argparse.ArgumentParser(

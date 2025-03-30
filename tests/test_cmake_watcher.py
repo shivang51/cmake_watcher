@@ -2,7 +2,7 @@ import unittest
 import tempfile
 import os
 import shutil
-from cmake_watcher import CMakeWatcher
+from src.cmake_watcher import CMakeWatcher
 
 class TestCMakeWatcher(unittest.TestCase):
     def setUp(self):
